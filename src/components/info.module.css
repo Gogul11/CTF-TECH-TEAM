@@ -1,0 +1,30 @@
+.table td{
+    font-size: 3.5rem;
+    margin: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table{
+    border-spacing: 0px 50px;
+}
+.val{
+    color: #ffffff;
+}
+
+.link{
+    color: #ffffff;
+    padding-left: 50%;
+    cursor: pointer;
+}
+.link:hover{
+    color: #00ffff;
+}

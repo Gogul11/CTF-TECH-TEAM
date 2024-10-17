@@ -1,0 +1,42 @@
+.profile{
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+.profile td{
+    font-size: 1.2rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.disp{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.val{
+    color: #ffffff;
+    padding: 0px 0px 0px 10px;
+}
+
+.info{
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}

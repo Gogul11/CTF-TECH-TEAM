@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.details{
+    width: 600px;
+    margin: 20px 0px 20px 650px;
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0px 0px 120px;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.register button{
+    margin: 50px 0px 50px 80px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 15px 0px 15px 60px;
+    color: #ffffff;
+}
+
+.input2{
+    height: 100px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+

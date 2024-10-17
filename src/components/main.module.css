@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+
+}
+
+.textAnimation{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.motto{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.motto2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.subMain{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.subMain div{
+    margin-left: 200px;
+}
+.head2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.sub{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.2rem;
+
+}
+.content{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 20px 0px 20px 50px;
+}
